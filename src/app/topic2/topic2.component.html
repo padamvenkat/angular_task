@@ -1,0 +1,27 @@
+<div class="container-fluid bg-3 text-center">
+    <input type="text" [(ngModel)]="searchtext">
+    <div class="row">
+        <!-- <div class="col-sm-4 mt-5 pt-4" *ngFor="let item of items|filter:searchtext"> -->
+        <div class="col-sm-4  pt-4" *ngFor="let item of items">
+            <a href="#">
+                <img [src]="item['image']" class="imag images">
+            </a>
+            <p>
+                {{item['item_name']}}
+            </p>
+            <strong>₹{{item['price']}}</strong>
+            <!-- <button (click)="action2()">-</button>Add
+                <button (click)="action1()">+<span *ngIf="count>0">{{count}}</span></button> -->
+            <button class="cust-button" (click)="addToCart(item)">+ Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<!------Social------>
+<!-- <div class="jumbotron bg-light text-center">
+        <p>
+            <a href="#">Facebook</a><br /><br />
+            <a href="#">Twitter</a> <br />
+            <br /><a href="#">Youtube</a>
+        </p>
+    </div> -->

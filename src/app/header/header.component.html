@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row row1">
+        <div class="col-4 d-flex justify-content-start">
+            <img class="img1"src="assets/images/tv1.jpg">
+        </div>
+        <div class="col-8 d-flex justify-content-start">
+        <input class="search1"type="text" [(ngModel)]="searchvalue">
+        <i class="material-icons search-icon">search</i>
+        <div class="cart-image">
+                <i class="material-icons icon-color">apps</i>
+                <i class="material-icons icon-color">shopping_cart</i>
+                <i class="material-icons icon-color">perm_identity</i>
+            </div>
+        <!-- <button (click)="action2()">-</button>
+
+         <button (click)="action1()">+<span *ngIf="count>=0">{{count}}</span></button> -->
+         <app-cart-value [value]="cart_value" [value1]="'hello'"></app-cart-value>
+
+         </div>
+       
+    </div>
+</div>
