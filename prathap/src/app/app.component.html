@@ -1,0 +1,35 @@
+
+
+
+<div class="row" >
+
+    <div class="col-4 d-flex "*ngFor="let i of items">
+        <div *ngIf="items['price']>= 10000">
+
+        <div class="row">
+            <div class="col-12"style="">
+                <img class="mb" src="{{i['image']}}">
+            </div>
+            <div class="col-6">
+                {{i['item1']}}
+            </div>
+            <div class="col-6">
+                {{i['price']}}  +
+            </div>
+        </div>
+    </div>
+            <!-- <table align="center ">
+                    <tr>
+                            
+                    </tr>
+                    <hr>
+                    <tr class="price">
+                        <th></th>
+                            <th onclick="alert('successfully added in cart')" class="add">+</th>
+                    </tr>
+
+            </table> -->
+</div>
+
+    </div>
+<router-outlet></router-outlet>

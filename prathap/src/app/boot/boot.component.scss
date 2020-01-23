@@ -1,0 +1,53 @@
+.header1 {
+    background-color: #563D7D; 
+    position: fixed;
+    height: 100px;
+    top:0;
+    left:0;
+    right:0;
+}
+
+.input-search {
+    width: 200px;
+    margin-top: 30px;
+    max-height: 40px !important;
+}
+
+.cart-image {
+    margin-top: 35px;
+}
+
+.search-icon {
+    margin-top: 35px !important;
+    margin-left: -30px !important;
+}
+
+.icon-color {
+    color: white !important;
+}
+
+.nav-bar {
+    margin-top: 100px;
+    height: 40px;
+    
+}
+
+.nav-bar-col {
+    background-color: aqua;
+}
+.nav-bar-col:hover {
+    background-color: black;
+    color: white;
+}
+
+.item-content {
+    padding: 15px !important;
+    background-color: burlywood !important;
+
+  
+}
+
+.image-spacing {
+    margin-top: 15px;
+    margin-left: 15px;
+}
